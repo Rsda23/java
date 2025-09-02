@@ -25,9 +25,11 @@ public class Calculatrice {
     }
     
     public static double calculer(double a, double b, char op) {
-    // À compléter
-    return 0;
- }
-
-    
+        if (op == '+') return a + b;
+        if (op == '-') return a - b;
+        if (op == '*') return a * b;
+        if (op == '/') return a / b;
+        
+        return 0;
+    }
 }

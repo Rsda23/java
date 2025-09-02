@@ -1,4 +1,6 @@
 com\isitech\bibliotheque\Biblioteque.class
+com\isitech\bibliotheque\FizzBuzz.class
 com\isitech\bibliotheque\Livre.class
 com\isitech\bibliotheque\Calculatrice.class
 com\isitech\bibliotheque\Main.class
+com\isitech\bibliotheque\Nombre.class
