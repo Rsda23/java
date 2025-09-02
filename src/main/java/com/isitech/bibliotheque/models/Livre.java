@@ -1,4 +1,4 @@
-package com.isitech.bibliotheque;
+package com.isitech.bibliotheque.models;
 
 public class Livre {
     private String titre;

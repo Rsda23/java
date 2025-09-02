@@ -1,10 +1,12 @@
 package com.isitech.bibliotheque;
 
+import com.isitech.bibliotheque.models.Livre;
+import com.isitech.bibliotheque.services.BibliothequeService;
 import java.util.Scanner;
 
 public class Main {
 
-    private static Bibliotheque bibliotheque = new Bibliotheque("Bibliothèque ISITECH");
+    private static BibliothequeService bibliotheque = new BibliothequeService("Bibliothèque ISITECH");
     private static Scanner scanner = new Scanner(System.in);
     
     public static void main(String[] args) {

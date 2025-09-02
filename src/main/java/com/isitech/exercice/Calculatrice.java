@@ -1,4 +1,4 @@
-package com.isitech.bibliotheque;
+package com.isitech.exercice;
 
 import java.util.Scanner;
 

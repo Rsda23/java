@@ -1,4 +1,4 @@
-package com.isitech.bibliotheque;
+package com.isitech.exercice;
 
 public class FizzBuzz {
     public static void main(String[] args) {

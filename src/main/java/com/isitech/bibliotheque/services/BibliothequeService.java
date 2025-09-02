@@ -1,13 +1,14 @@
-package com.isitech.bibliotheque;
+package com.isitech.bibliotheque.services;
 
+import com.isitech.bibliotheque.models.Livre;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bibliotheque {
+public class BibliothequeService {
     private List<Livre> livres;
     private String nom;
 
-    public Bibliotheque(String nom) {
+    public BibliothequeService(String nom) {
         this.nom = nom;
         this.livres = new ArrayList<>();
     }
