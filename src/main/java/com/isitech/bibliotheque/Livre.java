@@ -17,14 +17,37 @@ public class Livre {
         this.isbn = isbn;
         this.disponible = true;
     }
-
-    // Getters et Setters
+    
     public String getTitre() {
         return titre;
+    }
+    
+    public String getIsbn() {
+        return isbn;
+    }
+    
+    public String getAuteur() {
+        return auteur;
+    }
+    
+    public boolean getDisponible(){
+        return disponible;
     }
 
     public void setTitre(String titre) {
         this.titre = titre;
+    }
+    
+    public void setIsbn(String isbn){
+        this.isbn = isbn;
+    }
+    
+    public void setAuteur (String auteur){
+        this.auteur = auteur;
+    }
+    
+    public void setDisponible(boolean disponible){
+        this.disponible = disponible;
     }
     
     @Override
@@ -35,7 +58,13 @@ public class Livre {
     
     @Override
     public boolean equals(Object obj) {
-    // TODO: Implémenter la comparaison par ISBN
-    return false;
+        if (obj instanceof Livre livre){
+            if (this.isbn == null){
+                return false;
+            } 
+            return this.isbn.equals(livre.getIsbn());
+        }
+        
+        return false;
     }
 }
