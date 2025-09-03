@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.isitech.bibliotheque.exceptions;
 
-/**
- *
- * @author darre
- */
-public class BibliothequeException {
+public class BibliothequeException extends Exception {
+    public BibliothequeException(String message) {
+        super(message);
+    }
     
+    public BibliothequeException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

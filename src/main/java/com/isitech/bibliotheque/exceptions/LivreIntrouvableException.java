@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.isitech.bibliotheque.exceptions;
 
-/**
- *
- * @author darre
- */
-public class LivreIntrouvableException {
-    
+public class LivreIntrouvableException extends BibliothequeException {
+    public LivreIntrouvableException(String isbn) {
+        super("Livre avec ISBN " + isbn + " introuvable");
+    }
 }
